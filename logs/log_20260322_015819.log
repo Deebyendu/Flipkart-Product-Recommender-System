@@ -1,0 +1,76 @@
+2026-03-22 01:58:19,892 - langchain_astradb.vectorstores - INFO - vector store default init, collection 'flipkart_database'
+2026-03-22 01:58:20,049 - httpcore.connection - DEBUG - connect_tcp.started host='huggingface.co' port=443 local_address=None timeout=None socket_options=None
+2026-03-22 01:58:20,111 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020D34DCECF0>
+2026-03-22 01:58:20,111 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020D34C41EB0> server_hostname='huggingface.co' timeout=None
+2026-03-22 01:58:20,150 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020D34D11810>
+2026-03-22 01:58:20,151 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-03-22 01:58:20,151 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-03-22 01:58:20,151 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-03-22 01:58:20,151 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-03-22 01:58:20,151 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-03-22 01:58:20,430 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'249'), (b'Connection', b'keep-alive'), (b'Date', b'Sat, 21 Mar 2026 20:28:20 GMT'), (b'ETag', b'W/"f9-zxirfUmnVPEvfNLDNbz43YY0F/M"'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-69beff64-45425d380b59fed41e43e28d;e4d9e500-8fce-4106-a028-bf4b084cb5ad'), (b'RateLimit', b'"api";r=997;t=148'), (b'RateLimit-Policy', b'"fixed window";"api";q=1000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 10fe25a0bf4a9799a26ea191b807d840.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'CCU50-P6'), (b'X-Amz-Cf-Id', b'WzjfjIlmbKl50L72NyINF4WT1cFZANw9eZ2Jb9Gt8MqtiBVjdPnCjg==')])
+2026-03-22 01:58:20,430 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-mpnet-base-v2?expand=inferenceProviderMapping "HTTP/1.1 200 OK"
+2026-03-22 01:58:20,431 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-03-22 01:58:20,431 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-03-22 01:58:20,431 - httpcore.http11 - DEBUG - response_closed.started
+2026-03-22 01:58:20,431 - httpcore.http11 - DEBUG - response_closed.complete
+2026-03-22 01:58:20,431 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2026-03-22 01:58:20,431 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-03-22 01:58:20,432 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2026-03-22 01:58:20,432 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-03-22 01:58:20,432 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2026-03-22 01:58:20,713 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Sat, 21 Mar 2026 20:28:20 GMT'), (b'content-encoding', b'gzip'), (b'ETag', b'W/"1b2f-p/Ewno2h1NlUyffWnUtI+eU28ak"'), (b'X-Powered-By', b'huggingface-moon'), (b'X-Request-Id', b'Root=1-69beff64-5c784efc57b44991742321fb;65ad97e5-ff79-45ca-8bf7-aed48ad33b81'), (b'RateLimit', b'"api";r=996;t=148'), (b'RateLimit-Policy', b'"fixed window";"api";q=1000;w=300'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'Access-Control-Max-Age', b'86400'), (b'Access-Control-Allow-Origin', b'https://huggingface.co'), (b'Vary', b'Origin'), (b'vary', b'Accept-Encoding'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 10fe25a0bf4a9799a26ea191b807d840.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'CCU50-P6'), (b'X-Amz-Cf-Id', b'YNMuJN9p5FaSmXO07wzhMtPWjoA9WONH4VaxfJvRPE0Kjiaw6SzaEg==')])
+2026-03-22 01:58:20,714 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-mpnet-base-v2 "HTTP/1.1 200 OK"
+2026-03-22 01:58:20,714 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2026-03-22 01:58:20,716 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-03-22 01:58:20,716 - httpcore.http11 - DEBUG - response_closed.started
+2026-03-22 01:58:20,716 - httpcore.http11 - DEBUG - response_closed.complete
+2026-03-22 01:58:20,717 - httpcore.connection - DEBUG - connect_tcp.started host='router.huggingface.co' port=443 local_address=None timeout=None socket_options=None
+2026-03-22 01:58:20,744 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020D34D13110>
+2026-03-22 01:58:20,744 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020D34C41EB0> server_hostname='router.huggingface.co' timeout=None
+2026-03-22 01:58:20,780 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020D34D863F0>
+2026-03-22 01:58:20,780 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-22 01:58:20,781 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-03-22 01:58:20,781 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-22 01:58:20,781 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-03-22 01:58:20,781 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-22 01:58:21,143 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Content-Length', b'16243'), (b'Connection', b'keep-alive'), (b'Date', b'Sat, 21 Mar 2026 20:28:21 GMT'), (b'x-inference-provider', b'hf-inference'), (b'X-Powered-By', b'huggingface-moon'), (b'x-request-id', b'Root=1-69beff64-163ee5c4430d669761cdce83;7c9a989e-8952-4dcb-b7bd-8552420990dd'), (b'cross-origin-opener-policy', b'same-origin'), (b'Referrer-Policy', b'strict-origin-when-cross-origin'), (b'vary', b'origin, access-control-request-method, access-control-request-headers, origin, access-control-request-method, access-control-request-headers'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Expose-Headers', b'X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash'), (b'X-Robots-Tag', b'none'), (b'access-control-allow-credentials', b'true'), (b'server', b'uvicorn'), (b'x-inference-id', b'c88a689a-5432-4de3-88fb-1e200dc64557'), (b'x-proxied-host', b'http://10.109.128.81'), (b'x-proxied-path', b'/pipeline/feature-extraction'), (b'x-proxied-replica', b'7siypivm-lp5vq'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 a83d3b8300c26fcd2b315138c61021dc.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'CCU50-P6'), (b'X-Amz-Cf-Id', b'SIHgdYzjkYrHWQBu0nFjwktyQ-7esfVNebnlJmg8bJS8bjZgrPF4LA==')])
+2026-03-22 01:58:21,144 - httpx - INFO - HTTP Request: POST https://router.huggingface.co/hf-inference/models/sentence-transformers/all-mpnet-base-v2/pipeline/feature-extraction "HTTP/1.1 200 OK"
+2026-03-22 01:58:21,144 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-22 01:58:21,144 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-03-22 01:58:21,144 - httpcore.http11 - DEBUG - response_closed.started
+2026-03-22 01:58:21,144 - httpcore.http11 - DEBUG - response_closed.complete
+2026-03-22 01:58:21,145 - root - INFO - No valid keyspace found in environment variable.
+2026-03-22 01:58:21,145 - root - INFO - Detecting API environment 'prod' from supplied endpoint
+2026-03-22 01:58:21,146 - astrapy.data.database - INFO - createCollection('flipkart_database')
+2026-03-22 01:58:21,146 - astrapy.utils.request_tools - DEBUG - Request URL: POST https://95fe87a3-84ff-4aba-a07b-18e985e0c46d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace
+2026-03-22 01:58:21,147 - astrapy.utils.request_tools - DEBUG - Request headers: '{'Content-Type': 'application/json', 'Accept': 'application/json', 'User-Agent': 'langchain/1.2.19 langchain_vectorstore/1.0.0 astrapy/2.2.1', 'Token': '***'}'
+2026-03-22 01:58:21,147 - astrapy.utils.request_tools - DEBUG - Request payload: '{"createCollection":{"name":"flipkart_database","options":{"vector":{"dimension":768},"indexing":{"allow":["metadata"]}}}}'
+2026-03-22 01:58:21,147 - astrapy.utils.request_tools - DEBUG - Timeout (ms): for request 60000 ms, overall operation (unset) ms
+2026-03-22 01:58:21,147 - astrapy.utils.request_tools - DEBUG - Request invoked by function: 'create_collection'
+2026-03-22 01:58:21,147 - httpcore.connection - DEBUG - connect_tcp.started host='95fe87a3-84ff-4aba-a07b-18e985e0c46d-us-east-2.apps.astra.datastax.com' port=443 local_address=None timeout=60.0 socket_options=None
+2026-03-22 01:58:21,475 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020D34E216E0>
+2026-03-22 01:58:21,475 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000020D0F103D10> server_hostname='95fe87a3-84ff-4aba-a07b-18e985e0c46d-us-east-2.apps.astra.datastax.com' timeout=60.0
+2026-03-22 01:58:21,780 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000020D34DB5EB0>
+2026-03-22 01:58:21,781 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-03-22 01:58:21,781 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-03-22 01:58:21,781 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-03-22 01:58:21,781 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-03-22 01:58:21,781 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-03-22 01:58:24,121 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'openresty/1.25.3.1'), (b'Date', b'Sat, 21 Mar 2026 20:28:23 GMT'), (b'Content-Type', b'application/json;charset=UTF-8'), (b'Content-Length', b'19'), (b'Connection', b'keep-alive')])
+2026-03-22 01:58:24,121 - httpx - INFO - HTTP Request: POST https://95fe87a3-84ff-4aba-a07b-18e985e0c46d-us-east-2.apps.astra.datastax.com/api/json/v1/default_keyspace "HTTP/1.1 200 OK"
+2026-03-22 01:58:24,121 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-03-22 01:58:24,121 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-03-22 01:58:24,121 - httpcore.http11 - DEBUG - response_closed.started
+2026-03-22 01:58:24,121 - httpcore.http11 - DEBUG - response_closed.complete
+2026-03-22 01:58:24,121 - astrapy.utils.request_tools - DEBUG - Response status code: 200
+2026-03-22 01:58:24,122 - astrapy.utils.request_tools - DEBUG - Response headers: 'Headers({'server': 'openresty/1.25.3.1', 'date': 'Sat, 21 Mar 2026 20:28:23 GMT', 'content-type': 'application/json;charset=UTF-8', 'content-length': '19', 'connection': 'keep-alive'})'
+2026-03-22 01:58:24,122 - astrapy.utils.request_tools - DEBUG - Response text: '{"status":{"ok":1}}'
+2026-03-22 01:58:24,122 - astrapy.data.database - INFO - finished createCollection('flipkart_database')
+2026-03-22 01:58:24,521 - werkzeug - WARNING -  * Debugger is active!
+2026-03-22 01:58:24,524 - werkzeug - INFO -  * Debugger PIN: 802-895-250
+2026-03-22 01:58:31,930 - werkzeug - INFO -  * Detected change in 'D:\\projects\\Flipkart Recomondation system\\flipkart\\rag_chain.py', reloading
+2026-03-22 01:58:31,930 - httpcore.connection - DEBUG - close.started
+2026-03-22 01:58:31,931 - httpcore.connection - DEBUG - close.complete
+2026-03-22 01:58:31,931 - httpcore.connection - DEBUG - close.started
+2026-03-22 01:58:31,931 - httpcore.connection - DEBUG - close.complete
